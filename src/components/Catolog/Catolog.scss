@@ -8,6 +8,8 @@
     gap: 50px;
 }
 
+
+
 .catalog__card{
     aspect-ratio: 1.3/1;
     border-radius: 20px;
@@ -37,41 +39,98 @@
             background-color: #fff;
             aspect-ratio: 1;
 
+            transform: translate(-50%, 50%);
+            transition: 0.4s;
+
         }
 
         &:hover{
             backdrop-filter:  blur(20px);
             opacity: 1;
+            button{
+                transform: translate(0, 0);
+            }
         }
+
+        
     }
+
+
 
     &:nth-child(1) {
         background-image: url(https://framerusercontent.com/images/QVKFKT3dyGxloXfzzpurVKNMM6M.jpg?scale-down-to=1024
         );
+        animation: slideUp 1s ease forwards;
+        opacity: 0;
+        animation-delay: 0.1s;
     }
 
     &:nth-child(2) {
-        background-image: url(https://framerusercontent.com/images/AX9PukosNfGVcfXw3YapiYpl9g.jpg?scale-down-to=1024
+        background-image: url(https://framerusercontent.com/images/kfr022WaJ8YJUyZFmdwCB3pXhs.jpg?scale-down-to=1024
         );
+        animation: slideUp 1s ease forwards;
+        opacity: 0;
+        animation-delay: 0.2s;
     }
 
     &:nth-child(3) {
         background-image: url(https://framerusercontent.com/images/BAXywubxN8sAhfJg3AgGgFI.jpg?scale-down-to=1024
         );
+        animation: slideUp 1s ease forwards;
+        opacity: 0;
+        animation-delay: 0.3s;
     }
 
     &:nth-child(4) {
         background-image: url(https://framerusercontent.com/images/3WALBX7nnuG7p85CLjlVmWPDHw.jpg?scale-down-to=1024
         );
+        animation: slideUp 1s ease forwards;
+        opacity: 0;
+        animation-delay: 0.4s;
     }
 
     &:nth-child(5) {
         background-image: url(https://framerusercontent.com/images/3WALBX7nnuG7p85CLjlVmWPDHw.jpg?scale-down-to=1024
         );
+        animation: slideUp 1s ease forwards;
+        opacity: 0;
+        animation-delay: 0.5s;
     }
 
     &:nth-child(6) {
-        background-image: url(https://s5.ezgif.com/tmp/ezgif-5-c7091df03a.gif
+        background-image: url(https://framerusercontent.com/images/QVKFKT3dyGxloXfzzpurVKNMM6M.jpg?scale-down-to=1024
         );
+        animation: slideUp 1s ease forwards;
+        opacity: 0;
+        animation-delay: 0.6s;
+    }
+
+    &:nth-child(7) {
+        
+        animation: slideUp 1s ease forwards;
+        opacity: 0;
+        animation-delay: 0.7s;
+    }
+
+    &:nth-child(8) {
+        
+        animation: slideUp 1s ease forwards;
+        opacity: 0;
+        animation-delay: 0.8s;
+    }
+
+    &.catalog__cardvideo {
+        position: relative;
+        display: block;
+        video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
     }
 }
+

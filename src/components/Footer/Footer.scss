@@ -1,0 +1,48 @@
+.footer {
+    text-align: center;
+    h1{
+        font-size: 46px;
+        margin-bottom: 20px;
+    }
+    
+}
+
+.footer__title {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0 60px;
+
+    .footer__gif {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        video {
+            width: 40px;
+            height: 40px;
+        }
+       
+    }
+
+    .footer__contact {
+        display: flex;
+        gap: 10px;
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+
+        
+        
+    }
+    
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #424242ba;
+    font-size: 24px;
+    
+}

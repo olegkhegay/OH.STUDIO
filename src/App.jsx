@@ -3,7 +3,7 @@ import React from 'react'
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
 import Catolog from './components/Catolog/Catolog'
-
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
@@ -11,6 +11,7 @@ const App = () => {
       <Header/>
       <Hero/>
       <Catolog/>
+      <Footer/>
     </>
   )
 }

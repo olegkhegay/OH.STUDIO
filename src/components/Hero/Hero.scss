@@ -1,15 +1,31 @@
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .hero__title{
     text-align: center;    
     font-size: 64px;
     max-width: 800px;
     margin: 130px auto 40px;
     font-weight: 600px;
+    animation: slideUp 1s ease forwards;
+    
 }
 
 .hero__box{
     display: flex;
     gap: 15px;
     justify-content: center;
+    animation: slideUp 1s ease forwards;
+    animation-delay: 0.3s;
+    opacity: 0;
 
     p{
         padding: 8px 10px;
