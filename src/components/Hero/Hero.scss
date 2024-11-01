@@ -17,6 +17,9 @@
     font-weight: 600px;
     animation: slideUp 1s ease forwards;
     
+    @media (max-width:800px) {
+      font-size: 36px;
+    }
 }
 
 .hero__box{
@@ -30,5 +33,9 @@
     p{
         padding: 8px 10px;
         background-color: #e8e5e480;border-radius: 40px;
+    }
+
+    @media (max-width:800px) {
+      display: none;
     }
 }
